@@ -1,0 +1,18 @@
+echo "# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore dist directory
+dist/
+cmake-build-debug/
+matplotplusplus/
+SDL2_gfx/
+SDL/
+build/
+# Ignore .env files
+.env" > .gitignore
